@@ -1,13 +1,13 @@
 <script>
 import AppBanner from '@/components/shared/AppBanner';
-import ProjectsGrid from '../components/projects/ProjectsGrid.vue';
+import ProjectsGridLess from '../components/projects/ProjectsGridLess.vue';
 import Button from '../components/reusable/Button.vue';
 
 export default {
 	name: 'Home',
 	components: {
 		AppBanner,
-		ProjectsGrid,
+		ProjectsGridLess,
 		Button,
 	},
 };
@@ -19,7 +19,7 @@ export default {
 		<AppBanner class="mb-5 sm:mb-8" />
 
 		<!-- Projects -->
-		<ProjectsGrid />
+		<ProjectsGridLess />
 
 		<!-- Load more projects button -->
 		<div class="mt-10 sm:mt-20 flex justify-center">

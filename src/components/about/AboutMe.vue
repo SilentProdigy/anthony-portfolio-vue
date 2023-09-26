@@ -6,12 +6,12 @@ export default {
 				{
 					id: 1,
 					bio:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+						'I am Anthony Mark Lopez, a website developer from Legazpi City, Albay, Philippines with over 6 years of experience in the industry.',
 				},
 				{
 					id: 2,
 					bio:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+						'I handled multiple clients from different country such as Canada, Australia, US, Hawaii and Portugal. Most of my projects with them are built on Wordpress and Shopify. But I also have experience in Laravel Framework, custom plugin development on wordpress and frontend tech such as HTML, CSS, Vue JS and React JS. For over 6 years, aside from working for agencies and clients, I sharpen my skills by building web applications such as POS system and Bidding Platform. I am also knowledgeable using design tools such as Photoshop and Figma. I am always willing to learn more and keep on sharpening my skillset and share it with people or clients that would help them successful.',
 				},
 			],
 		};

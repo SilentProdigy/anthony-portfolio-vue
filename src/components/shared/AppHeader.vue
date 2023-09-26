@@ -83,20 +83,20 @@ export default {
 			<!-- Header menu links and small screen hamburger menu -->
 			<div class="flex justify-between items-center px-4 sm:px-0">
 				<!-- Header logos -->
-				<div>
+				<div class="logo-div">
 					<router-link to="/"
-						><img
+						>
+						<span
 							v-if="theme === 'light'"
-							src="@/assets/images/logo-dark.svg"
-							class="w-36"
-							alt="Dark Logo"
-						/>
-						<img
+							style="color: #000"
+							class="logo-title-name"
+						>Anthony Mark</span>
+						<span
 							v-else
-							src="@/assets/images/logo-light.svg"
-							class="w-36"
-							alt="Light Logo"
-						/>
+							style="color: #fff"
+							class="logo-title-name"
+						>Anthony Mark</span>
+						<span class="logo-title-dot">.</span>
 					</router-link>
 				</div>
 
@@ -178,4 +178,19 @@ export default {
 	@apply dark:text-indigo-400;
 	@apply font-medium;
 }
+
+/* Logo Style */
+.logo-title-name {
+  font-size: 35px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  transition: 0.5s all;
+}
+
+.logo-title-dot {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(99 102 241 / var(--tw-bg-opacity))
+}
+
 </style>
